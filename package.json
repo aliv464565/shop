@@ -1,0 +1,9 @@
+{
+  "name": "shop",
+  "private": true,
+  "scripts": {
+    "dev:api": "pnpm --filter @shop/api dev",
+    "db:migrate": "pnpm --filter @shop/api exec prisma migrate dev",
+    "db:seed": "pnpm --filter @shop/api exec prisma db seed"
+  }
+}
